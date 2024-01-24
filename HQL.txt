@@ -1,0 +1,13 @@
+SQL: Select * from TableName;
+HQL: From TableName;
+
+SQL: SELECT * FROM Vaccine_Information;
+HQL: From Vaccine_Information;
+
+SQL: Select id, name from Vaccine_Information;
+HQL: Select id, name from Vaccine_Information;
+
+SQL: Select id, name from Vaccine_Information where id IN(?,?,?);
+HQL: Select id, name from Vaccine_Information where id IN(:id1,:id2);
+
+
