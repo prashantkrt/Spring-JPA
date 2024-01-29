@@ -61,7 +61,6 @@ public interface IVaccineRepo extends JpaRepository<VaccineDetails, Long>{
 	public int fetechById(Integer id);	
 	
 	@Query(value="Select now() from dual", nativeQuery = true)
-	public Date getTheSystemDateAndTime();
-	
+	public Date getTheSystemDateAndTime();	
 
 }
