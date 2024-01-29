@@ -32,5 +32,4 @@ public class StudentTable {
 	{
 		System.out.println("StudentTable bean is created ....");
 	}
-
 }
