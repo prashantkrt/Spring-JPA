@@ -30,5 +30,4 @@ public class VaccineDetails {
 		this.company = company;
 		this.price = price;
 	}
-
 }
